@@ -1,0 +1,53 @@
+html,body {
+    /* background: black; */
+    background: black;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: consolas;
+}
+
+.container {
+    width: 200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.line {
+    color: #00D700;
+    text-align: center;
+}
+
+.button {
+    border: 1px #00D700 solid;
+    margin: 30px auto;
+    height: 30px;
+    width: 60px;
+    text-align: center;
+    line-height: 30px;
+    color: #00D700;
+    opacity: 0
+}
+
+.statics {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    color: #00D700;    
+}
+
+.statics .this-level{
+    color: #00D700;
+    
+}
+
+.statics .that-level{
+    color: #00D700;    
+}
+
+@font-face
+{
+font-family: consolas;
+src: url('../fonts/consola.woff');
+}
